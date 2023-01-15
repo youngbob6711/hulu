@@ -1,11 +1,28 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/Header'
+import Nav from '../components/Nav'
+import Results from '../components/Results'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-     <h1> lets Build Hulu Clone</h1>
+    <div className=" ">
+     
+
+     {/* Header */}
+
+     <Header />
+
+     {/* Nav */}
+     <Nav />
+
+     {/* Results */}
+     <Results />
+
+
+
+
     </div>
   )
 }
